@@ -1,0 +1,99 @@
+
+body{
+padding: 0%;
+margin: 0%;
+}
+.father{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding-left: 120px;
+    
+}
+.child_One{
+    display: flex;
+    gap: 10px;
+}
+.child_One img{
+    width:60px ;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.child_Two ul{
+    
+    padding-top: 2%;
+list-style: none;
+}
+a{
+    
+    color: aquamarine;
+    text-decoration:none;
+}
+.child_Three{
+     padding-top: 1.5%;
+     padding-right: 8%;
+}
+.child_Three button{
+    width:200px;
+    height: 50%;
+}
+
+.child_Three img{
+    position: absolute;
+    right: 0.5px;
+     padding-top: 1.9px;
+    padding-right: 120px;
+}
+.child_Four{
+    width: 700px;
+    height: 20px; 
+    padding-left: 130px;
+    padding-top: 100px
+    
+    
+}
+
+.child_Four img{
+     display: flex;
+    padding-left: 455px;
+    width: 250px;
+    height: 250px;
+}
+
+.child_Four button{
+    
+ color: brown;
+ background-color: rgb(242, 165, 165);
+ border-radius: 25px;
+}
+.heading{ 
+    width: 50%;
+    padding-left:130px ;
+}
+.paraghrape{
+    width: 50%;
+}
+.gp{
+    width: 350px;
+    padding-left:130px ;
+}
+.gp input{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.gp img{
+    position: absolute;
+    padding-top: 8px ;
+    right: 1190px;
+}
+.gp button{
+    width: 25%;
+    height : 35px ;
+    background-color: blue;
+    color: wheat;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+}
